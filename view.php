@@ -1,13 +1,5 @@
 <?php
 include("./conexao.php");
-
-$sql = "SELECT * FROM user";
-$result = $conn->query($sql);
-
-#contagem de registros
-$query_pg = "SELECT COUNT(id) AS num_result FROM user";
-$result_pg = $conn->query($query_pg);
-$row_pg = $result_pg->fetch_assoc();
 ?>
 
 <!DOCTYPE html>
