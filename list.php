@@ -3,7 +3,7 @@ include("./conexao.php");
 
 $pagina = filter_input(INPUT_GET, "pagina", FILTER_SANITIZE_NUMBER_INT);
 
-if (!empty($pagina)) {
+if (isset($pagina)) {
 
     #Calcular o inicio visualização
     $qnt_result_pg = 10; //quantidade de registro por pagina
@@ -33,7 +33,8 @@ if (!empty($pagina)) {
                                     <th scope='col'>CEP</th>
                                     <th scope='col'>Configuração</th>
                                 </tr>
-                            </thead>";
+                            </thead>
+                            <tbody>";
 
     while ($row = $result_user->fetch_assoc()) {
         extract($row);
