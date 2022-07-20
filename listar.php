@@ -1,7 +1,7 @@
 <?php
 include("./conexao.php");
 
-if (!empty($_GET['search'])) {
+if (isset($_GET['search'])) {
     $data = $_GET['search'];
     $sql = "SELECT * FROM user WHERE `state` LIKE '%$data%' OR id LIKE '%$data%' OR firstName LIKE '%$data%' OR email LIKE '%$data%' ORDER BY id DESC LIMIT 0, 10";
 } else {
@@ -34,6 +34,7 @@ $row_pg = $result_pg->fetch_assoc();
                     Usuários cadastrados
                 </h3>
             </div>
+
             <div class="row">
                 <div class="col-md-4">
                     <p><strong>Total de registros: </strong> <?php echo $row_pg['num_result'] ?> </p>
@@ -50,6 +51,7 @@ $row_pg = $result_pg->fetch_assoc();
                     </div>
                 </div>
             </div>
+
             <div class='table-responsive'>
                 <table class='table table-striped align-middle table-bg'>
                     <thead>
@@ -99,26 +101,31 @@ $row_pg = $result_pg->fetch_assoc();
                     </tbody>
                 </table>
             </div>
-            <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center">
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                        </a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+
+            <div class="nav justify-content-center">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
             <div class="d-grid gap-2 col-6 mx-auto">
                 <a href="./index.php" class="btn btn-success" type="button">Voltar</a>
             </div>
+
             <div class="fundo"></div>
         </div>
     </div>
