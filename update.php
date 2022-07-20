@@ -19,11 +19,11 @@ if (!isset($_POST['update'])) {
 
     if ($result == TRUE) {
         echo "<script>window.alert('Atualizado com Sucesso!');";
-        echo "javascript:window.location='view.php';</script>";
+        echo "javascript:window.location='listar.php';</script>";
     } else {
         echo 'Error: ' . $sql . '<br>' . $conn->error;
     }
 } else {
     echo "<script>window.alert('Error, nenhuma variavel carregada!');";
-    echo "javascript:window.location='view.php';</script>";
+    echo "javascript:window.location='listar.php';</script>";
 }
