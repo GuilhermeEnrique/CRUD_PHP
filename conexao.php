@@ -6,7 +6,7 @@ $password = 'sandbox';
 $dbname = 'cadastro';
 
 #CRIAR CONEXÃO
-$conn = new mysqli($servename, $username, $password, $dbname);
+$conn = mysqli_connect($servename, $username, $password, $dbname);
 mysqli_set_charset($conn, "UTF8");
 
 #CHECAR CONEXÃO EXISTENTE

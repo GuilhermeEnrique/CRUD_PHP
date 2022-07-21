@@ -89,7 +89,7 @@ if (isset($_GET['id'])) {
                                 <hr class="my-4">
                                 <div class="d-grid gap-2">
                                     <button class="btn btn-success" type="submit">Atualizar</button>
-                                    <a href="./listar.php" class="btn btn-outline-primary" type="button">Ver cadastrados</a>
+                                    <a href="./list.php" class="btn btn-outline-primary" type="button">Ver cadastrados</a>
                                 </div>
                             </form>
                         </div>

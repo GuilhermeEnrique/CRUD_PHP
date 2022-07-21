@@ -18,7 +18,7 @@
 
         if ($result === TRUE) {
             echo "<script>window.alert('Cadastrado com Sucesso!');";
-            echo "javascript:window.location='listar.php';</script>";
+            echo "javascript:window.location='list.php';</script>";
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
