@@ -50,7 +50,6 @@
                                 </svg></th>
                         </tr>
                     </thead>
-                    <tbody class="table-group-divider">
                 </table>
             </div>
             <div class="d-grid gap-2 col-6 mx-auto">
