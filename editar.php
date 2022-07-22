@@ -88,7 +88,7 @@ if (isset($_GET['id'])) {
                                 </div>
                                 <hr class="my-4">
                                 <div class="d-grid gap-2">
-                                    <button class="btn btn-success" type="submit">Atualizar</button>
+                                    <button class="btn btn-primary" type="submit">Atualizar</button>
                                     <a href="./list.php" class="btn btn-outline-primary" type="button">Ver cadastrados</a>
                                 </div>
                             </form>

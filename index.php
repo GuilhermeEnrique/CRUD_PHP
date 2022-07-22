@@ -62,7 +62,7 @@
                         <hr class="my-4">
                         <div class="d-grid gap-2 col-12 mx-auto">
                             <button class="btn btn-primary" type="submit">Cadastrar</button>
-                            <a href="./list.php" class="btn btn-cadastrar" type="button">Ver cadastrados</a>
+                            <a href="./list.php" class="btn btn-outline-primary" type="button">Ver cadastrados</a>
                         </div>
                         <div class="col-md-6"></div>
                     </div>
