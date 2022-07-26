@@ -33,8 +33,6 @@ $totalFiltered = mysqli_num_rows($resultado_usuarios);
 // Ordenar o resultado
 $result_usuarios .= " ORDER BY " . $columns[$requestData['order'][0]['column']] . "   " . $requestData['order'][0]['dir'] . "  LIMIT " . $requestData['start'] . " ," . $requestData['length'] . "   ";
 $resultado_usuarios = mysqli_query($conn, $result_usuarios);
-// var_dump($resultado_usuarios);
-
 
 // ler e criar os dados em um array:
 $dados = array();
