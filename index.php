@@ -51,7 +51,7 @@
                         <div class="col-6">
                             <label for="state" class="form-label">Estado</label>
                             <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1">UF</span>
+                                <span class="input-group-text" id="basic-addon1"><abbr title="Unidade da Federação" class="initialism">UF</abbr></span>
                                 <input type="text" class="form-control" id="state" name="state" placeholder="Estado">
                             </div>
                         </div>
