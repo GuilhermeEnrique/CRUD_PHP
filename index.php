@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="fundo-bd">
     <div class="container-fluid mainContainer">
         <div class="row g-4 main">
-            <div class="col cadastro">
+            <div class="col cadastro-img">
                 <img src="./img/cadastro.png" class="mx-auto d-block">
             </div>
             <div class="col form">
@@ -37,6 +37,7 @@
                             <label for="email" class="form-label">Email </label>
                             <input type="email" class="form-control" id="email" name="email" placeholder="seu.email@exemplo.com" required="">
                         </div>
+
                         <div class="col-md-3">
                             <label for="cep" class="form-label"><abbr title="Código de Endereçamento Postal" class="initialism">CEP</abbr></label>
                             <input type="text" class="form-control" id="cep" name="cep" placeholder="Apenas números" required="">
@@ -59,7 +60,9 @@
                             <label for="city" class="form-label">Cidade</label>
                             <input type="text" class="form-control" id="city" name="city" placeholder="Cidade">
                         </div>
+
                         <hr class="my-4">
+                        
                         <div class="d-grid gap-2 col-12 mx-auto">
                             <button class="btn btn-primary" type="submit">Cadastrar</button>
                             <a href="./list.php" class="btn btn-outline-primary" type="button">Ver cadastrados</a>
@@ -69,7 +72,6 @@
                 </form>
             </div>
         </div>
-    </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

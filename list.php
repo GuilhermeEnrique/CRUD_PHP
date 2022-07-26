@@ -21,7 +21,7 @@
 
 <body class="fundo-bd">
     <div class="container-flex mainContainer">
-        <div class="row g-3 main">
+        <div class="row g-3 main-list">
             <div class="col-12 title">
                 <h3>
                     Usuários cadastrados
