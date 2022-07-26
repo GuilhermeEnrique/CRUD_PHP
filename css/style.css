@@ -73,6 +73,9 @@
   height: auto;
   margin-bottom: 1rem;
 }
+.editar-img{
+  display: flex;
+}
 
 .form {
   margin-right: 2rem;

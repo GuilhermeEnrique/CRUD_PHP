@@ -37,8 +37,8 @@ if (isset($_GET['id'])) {
         <body class="fundo-bd">
             <div class="container-fluid mainContainer">
                 <div class="row g-3 main-editar">
-                    <div class="col cadastro-img">
-                        <img src="./img/cadastro.png" class="mx-auto d-block">
+                    <div class="col editar-img">
+                        <img src="./img/editar.png" class="mx-auto d-block">
                     </div>
                     <div class="col-md-11 col-lg-12">
                         <h4 class="mb-3">Cadastro do <?php echo $firstName; ?></h4>
