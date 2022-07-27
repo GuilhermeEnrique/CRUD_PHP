@@ -93,6 +93,15 @@
   margin-bottom: 1rem;
 }
 
+.img-login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
 .editar-img {
   display: flex;
   margin: 1px;
@@ -115,22 +124,8 @@
   margin-bottom: 10px;
 }
 
-.title {
-  text-align: center;
-  color: #503a85
-}
-
 .btn-config {
   color: #f2eaff;
-}
-
-.img-login{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-  height: auto;
-  margin-bottom: 1rem;
 }
 
 .btn-login{
@@ -143,4 +138,9 @@
 
 .title-login{
   margin: 3rem 2rem 0rem 2rem;
+}
+
+.title {
+  text-align: center;
+  color: #503a85
 }
