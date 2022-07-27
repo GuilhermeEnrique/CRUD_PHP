@@ -17,6 +17,10 @@
             </div>
             <div class="col form">
                 <h3 class="mb-3">Cadastro de usuários</h3>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a href="./login.php" class="btn btn-primary me-md-2">Entrar</a>
+                </div>
+                <br>
                 <form action="./insere.php" method="POST">
                     <div class="row">
                         <div class="col-12">

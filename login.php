@@ -24,14 +24,14 @@
                             <h5>Faça o login para ter acesso a informações restritas.</h5>
                         </div>
                         <form role="form" class="form-login">
-                            <div class="col-12">
+                            <div class="col-10">
                                 <div class="input-group">
                                     <span class="input-group-text">Email</span>
                                     <input type="email" class="form-control" id="email-login" name="email-login" required="">
                                 </div>
                             </div>
 
-                            <div class="col-12">
+                            <div class="col-10">
                                 <div class="input-group">
                                     <span class="input-group-text">Senha</span>
                                     <input type="password" class="form-control" id="password" name="password" required="">

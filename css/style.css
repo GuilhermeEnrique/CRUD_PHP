@@ -84,6 +84,10 @@
   margin-bottom: 1rem;
 }
 
+.col-10{
+  margin-bottom: 1.5rem;
+}
+
 .cadastro-img {
   display: flex;
   align-items: center;
