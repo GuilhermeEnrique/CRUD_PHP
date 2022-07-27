@@ -9,7 +9,7 @@ $columns = array(
     1 => 'firstName',
     2 => 'lastName',
     3 => 'username',
-    3 => 'email',
+    4 => 'email',
 );
 
 // Obter quantidade de registros total sem qualquer pesquisa:
@@ -24,8 +24,8 @@ if (!empty($requestData['search']['value'])) {   // se houver um parâmetro de p
     $result_usuarios .= " WHERE firstName LIKE '" . $requestData['search']['value'] . "%' ";
     $result_usuarios .= " OR id LIKE '" . $requestData['search']['value'] . "%' ";
     $result_usuarios .= " OR lastName LIKE '" . $requestData['search']['value'] . "%' ";
-    $result_usuarios .= " OR username LIKE '" . $requestData['search']['value'] . "%' ";
-    $result_usuarios .= " OR email LIKE '" . $requestData['search']['value'] . "%' ";
+    $result_usuarios .= " OR username LIKE '%" . $requestData['search']['value'] . "%' ";
+    $result_usuarios .= " OR email LIKE '%" . $requestData['search']['value'] . "%' ";
 }
 
 $resultado_usuarios = mysqli_query($conn, $result_usuarios);
