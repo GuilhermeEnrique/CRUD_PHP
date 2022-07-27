@@ -37,7 +37,7 @@
                         <div class="col-12">
                             <div class="input-group">
                                 <span class="input-group-text">Email</span>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="seu.email@exemplo.com" required="">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Seu.email@exemplo.com" required="">
                             </div>
                         </div>
 

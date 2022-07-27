@@ -106,66 +106,6 @@
   margin-right: 2rem;
 }
 
-/* .btn-primary {
-  color: #fff;
-  background-color: #24d08a;
-  border-color: #24d08a;
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #24d08a;
-  --bs-btn-border-color: #24d08a;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #2baf7a;
-  --bs-btn-hover-border-color: #24d08a;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #24d08a;
-  --bs-btn-active-border-color: #24d08a;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #24d08a;
-  --bs-btn-disabled-border-color: #24d08a;
-} */
-
-/* .btn-cadastrar {
-  color: #24d08a;
-  background-color: #fff;
-  border-color: #24d08a;
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #24d08a;
-  --bs-btn-border-color: #24d08a;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #2baf7a;
-  --bs-btn-hover-border-color: #24d08a;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #24d08a;
-  --bs-btn-active-border-color: #24d08a;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #24d08a;
-  --bs-btn-disabled-border-color: #24d08a;
-}
-
-.btn-outline-primary {
-  color: #198731;
-  background-color: #ffffff;
-  border-color: #198754;
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #198754;
-  --bs-btn-border-color: #198754;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #198754;
-  --bs-btn-hover-border-color: #198754;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #198754;
-  --bs-btn-active-border-color: #198754;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #198754;
-  --bs-btn-disabled-border-color: #198754;
-} */
-
 .table-bg {
   text-align: center;
   background: rgba(141, 139, 139, 0.3);
@@ -182,4 +122,25 @@
 
 .btn-config {
   color: #f2eaff;
+}
+
+.img-login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.btn-login{
+  margin-top: 2rem;
+}
+
+.form-login{
+  margin: 3rem 2rem 0rem 2rem;
+}
+
+.title-login{
+  margin: 3rem 2rem 0rem 2rem;
 }
