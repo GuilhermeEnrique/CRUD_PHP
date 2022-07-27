@@ -52,44 +52,49 @@ if (isset($_GET['id'])) {
                                 </div>
 
                                 <div class="col-sm-12">
-                                    <label for="username" class="form-label">Username</label>
                                     <div class="input-group">
-                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                        <span class="input-group-text" id="basic-addon1">Username</span>
                                         <input type="text" class="form-control" id="username" name="username" value="<?php echo $username; ?>" required="">
                                     </div>
                                 </div>
 
                                 <div class="col-sm-12">
-                                    <label for="email" class="form-label">Email </label>
-                                    <input type="email" class="form-control" id="email" name="email" value="<?php echo $email; ?>" required="">
+                                    <div class="input-group">
+                                        <span class="input-group-text">E-mail</span>
+                                        <input type="email" class="form-control" id="email" name="email" value="<?php echo $email; ?>" required="">
+                                    </div>
                                 </div>
 
                                 <div class="col-12">
-                                    <label for="address" class="form-label">Endereço</label>
-                                    <input type="text" class="form-control" id="address" name="address" value="<?php echo $address; ?>" required="">
+                                    <div class="input-group">
+                                        <span class="input-group-text">Endereço</span>
+                                        <input type="text" class="form-control" id="address" name="address" value="<?php echo $address; ?>" required="">
+                                    </div>
                                 </div>
 
                                 <div class="col-md-4">
-                                    <label for="state" class="form-label">Estado</label>
                                     <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1"><abbr title="Unidade da Federação" class="initialism">UF</abbr></span>
+                                        <span class="input-group-text" id="basic-addon1">Estado</span>
                                         <input type="text" class="form-control" id="state" name="state" value="<?php echo $state; ?>" required="">
                                     </div>
                                 </div>
 
                                 <div class="col-md-5">
-                                    <label for="city" class="form-label">Cidade</label>
-                                    <input type="text" class="form-control" id="city" name="city" value="<?php echo $city; ?>" required="">
-
+                                    <div class="input-group">
+                                        <span class="input-group-text">Cidade</span>
+                                        <input type="text" class="form-control" id="city" name="city" value="<?php echo $city; ?>" required="">
+                                    </div>
                                 </div>
 
+
                                 <div class="col-md-3">
-                                    <label for="cep" class="form-label"><abbr title="Código de Endereçamento Postal" class="initialism">CEP</label>
+                                <div class="input-group">
                                     <input type="text" class="form-control" id="cep" name="cep" value="<?php echo $cep; ?>" required="">
+                                    <span class="input-group-text">CEP</span>
                                 </div>
                             </div>
                             <hr>
-                            <div class="d-grid gap-2 col-6 mx-auto">
+                            <div class="d-grid gap-2 d-md-flex justify-content-center">
                                 <button class="btn btn-primary" type="submit">Atualizar</button>
                                 <a href="./list.php" class="btn btn-outline-primary" type="button">Ver cadastrados</a>
                             </div>
