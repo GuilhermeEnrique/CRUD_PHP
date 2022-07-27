@@ -3,6 +3,14 @@
   background-color: #503a85;
 }
 
+.fundo-bd-cad {
+  margin: 50px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  background-color: #503a85;
+  margin-top: 7rem;
+}
+
 .fundo-bd {
   margin: 50px 0px 0px 0px;
   display: flex;
@@ -22,7 +30,7 @@
 
 .main {
   padding: 0, 625rem;
-  background-color:  #f2eaff;
+  background-color: #f2eaff;
   border-radius: 2rem;
   justify-content: center;
   align-items: center;
@@ -35,7 +43,7 @@
 
 .main-list {
   padding: 1rem;
-  background-color:  #f2eaff;
+  background-color: #f2eaff;
   border-radius: 2rem;
   justify-content: center;
   align-items: center;
@@ -46,7 +54,7 @@
 
 .main-editar {
   padding: 1rem;
-  background-color:  #f2eaff;
+  background-color: #f2eaff;
   border-radius: 2rem;
   justify-content: center;
   align-items: center;
@@ -61,8 +69,19 @@
   width: 55.666667%;
 }
 
-.col-md-6 {
-  margin-bottom: 2rem;
+.my-4 {
+  margin-top: -0.5rem !important;
+  margin-bottom: 1.5rem !important;
+  margin-left: 1rem;
+  width: 96%;
+}
+
+.col-6 {
+  margin-bottom: 1rem;
+}
+
+.col-12 {
+  margin-bottom: 1rem;
 }
 
 .cadastro-img {
@@ -73,8 +92,14 @@
   height: auto;
   margin-bottom: 1rem;
 }
-.editar-img{
+
+.editar-img {
   display: flex;
+  margin: 1px;
+  width: 10%;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .form {
@@ -155,6 +180,6 @@
   color: #503a85
 }
 
-.btn-config{
+.btn-config {
   color: #f2eaff;
 }

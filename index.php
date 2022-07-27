@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="fundo-bd">
+<body class="fundo-bd-cad">
     <div class="container-fluid mainContainer">
         <div class="row g-4 main">
             <div class="col cadastro-img">
@@ -19,14 +19,15 @@
                 <h3 class="mb-3">Cadastro de usuários</h3>
                 <form action="./insere.php" method="POST">
                     <div class="row">
-                        <div class="input-group">
-                            <span class="input-group-text">Nome e sobronome</span>
-                            <input type="text" aria-label="First name" class="form-control" id="firstName" name="firstName" required="">
-                            <input type="text" aria-label="Last name" class="form-control" id="lastName" name="lastName" required="">
+                        <div class="col-12">
+                            <div class="input-group">
+                                <span class="input-group-text">Nome e sobronome</span>
+                                <input type="text" aria-label="First name" class="form-control" id="firstName" name="firstName" required="">
+                                <input type="text" aria-label="Last name" class="form-control" id="lastName" name="lastName" required="">
+                            </div>
                         </div>
 
                         <div class="col-12">
-                            <label for="username" class="form-label">Username</label>
                             <div class="input-group">
                                 <span class="input-group-text" id="basic-addon1">@</span>
                                 <input type="text" class="form-control" id="username" name="username" placeholder="Username" required="">
@@ -34,22 +35,27 @@
                         </div>
 
                         <div class="col-12">
-                            <label for="email" class="form-label">Email </label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="seu.email@exemplo.com" required="">
-                        </div>
-
-                        <div class="col-md-3">
-                            <label for="cep" class="form-label"><abbr title="Código de Endereçamento Postal" class="initialism">CEP</abbr></label>
-                            <input type="text" class="form-control" id="cep" name="cep" placeholder="Apenas números" required="">
-                        </div>
-
-                        <div class="col-md-9">
-                            <label for="address" class="form-label">Endereço</label>
-                            <input type="text" class="form-control" id="address" name="address" placeholder="Rua Principal, 1234">
+                            <div class="input-group">
+                                <span class="input-group-text">Email</span>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="seu.email@exemplo.com" required="">
+                            </div>
                         </div>
 
                         <div class="col-6">
-                            <label for="state" class="form-label">Estado</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><abbr title="Código de Endereçamento Postal" class="initialism">CEP</abbr></span>
+                                <input type="text" class="form-control" id="cep" name="cep" placeholder="Apenas números" required="">
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="input-group">
+                                <span class="input-group-text">Endereço</span>
+                                <input type="text" class="form-control" id="address" name="address" placeholder="Rua Principal, 1234">
+                            </div>
+                        </div>
+
+                        <div class="col-6">
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="basic-addon1"><abbr title="Unidade da Federação" class="initialism">UF</abbr></span>
                                 <input type="text" class="form-control" id="state" name="state" placeholder="Estado">
@@ -57,12 +63,14 @@
                         </div>
 
                         <div class="col-6">
-                            <label for="city" class="form-label">Cidade</label>
-                            <input type="text" class="form-control" id="city" name="city" placeholder="Cidade">
+                            <div class="input-group">
+                                <span class="input-group-text">Cidade</span>
+                                <input type="text" class="form-control" id="city" name="city" placeholder="Cidade">
+                            </div>
                         </div>
 
                         <hr class="my-4">
-                        
+
                         <div class="d-grid gap-2 col-12 mx-auto">
                             <button class="btn btn-primary" type="submit">Cadastrar</button>
                             <a href="./list.php" class="btn btn-outline-primary" type="button">Ver cadastrados</a>

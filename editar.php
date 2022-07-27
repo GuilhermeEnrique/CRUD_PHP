@@ -37,9 +37,9 @@ if (isset($_GET['id'])) {
         <body class="fundo-bd">
             <div class="container-fluid mainContainer">
                 <div class="row g-3 main-editar">
-                    <div class="col editar-img">
-                        <img src="./img/editar.png" class="mx-auto d-block">
-                    </div>
+
+                    <img src="./img/editar.png" class="img-fluid editar-img">
+
                     <div class="col-md-11 col-lg-12">
                         <h4 class="mb-3">Cadastro do <?php echo $firstName; ?></h4>
                         <form action="./update.php" method="POST">
@@ -88,7 +88,7 @@ if (isset($_GET['id'])) {
                                     <input type="text" class="form-control" id="cep" name="cep" value="<?php echo $cep; ?>" required="">
                                 </div>
                             </div>
-                            <hr class="my-4">
+                            <hr>
                             <div class="d-grid gap-2 col-6 mx-auto">
                                 <button class="btn btn-primary" type="submit">Atualizar</button>
                                 <a href="./list.php" class="btn btn-outline-primary" type="button">Ver cadastrados</a>
