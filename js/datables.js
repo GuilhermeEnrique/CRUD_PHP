@@ -1,5 +1,8 @@
 $(document).ready(function() {
     $('#listar-usuario').DataTable({
+        "language": {
+            "url": "./js/pt-BR.json"
+        },
         "processing": true,
         "serverSide": true,
         "paging": true,
