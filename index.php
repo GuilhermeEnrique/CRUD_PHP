@@ -12,11 +12,13 @@
 <body class="fundo-bd-cad">
     <div class="container-fluid mainContainer">
         <div class="row g-4 main">
-            <div class="col cadastro-img">
+            <div class="col-auto cadastro-img">
                 <img src="./img/cadastro.png" class="mx-auto d-block">
             </div>
-            <div class="col form">
-                <h3 class="mb-3">Cadastro de usuários</h3>
+            <div class="col-8 form">
+                <div class="col-6">
+                    <h3 class="mb-2">Cadastro de usuários</h3>
+                </div>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                     <a href="./login.php" class="btn btn-primary me-md-2">Entrar</a>
                 </div>

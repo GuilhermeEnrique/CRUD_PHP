@@ -69,6 +69,10 @@
   width: 55.666667%;
 }
 
+.mb-2 {
+  margin-bottom: -3rem!important;
+}
+
 .my-4 {
   margin-top: -0.5rem !important;
   margin-bottom: 1.5rem !important;

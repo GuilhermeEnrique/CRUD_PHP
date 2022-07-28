@@ -65,7 +65,7 @@ if (isset($_GET['id'])) {
                                     </div>
                                 </div>
 
-                                <div class="col-12">
+                                <div class="col-sm-12">
                                     <div class="input-group">
                                         <span class="input-group-text">Endereço</span>
                                         <input type="text" class="form-control" id="address" name="address" value="<?php echo $address; ?>" required="">
@@ -96,7 +96,7 @@ if (isset($_GET['id'])) {
                             <hr>
                             <div class="d-grid gap-2 d-md-flex justify-content-center">
                                 <button class="btn btn-primary" type="submit">Atualizar</button>
-                                <a href="./list.php" class="btn btn-outline-primary" type="button">Ver cadastrados</a>
+                                <a href="./list.php" class="btn btn-danger" type="button">Cancelar</a>
                             </div>
                         </form>
                     </div>
