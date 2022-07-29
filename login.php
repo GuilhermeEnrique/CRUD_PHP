@@ -10,44 +10,43 @@
     <title>Login</title>
 </head>
 
-<body class="fundo-bd">
-    <div class="container-fluid mainContainer">
-        <div class="row g-4 main">
-            <div class="col-12">
-                <div class="row form">
-                    <div class="col-8">
-                        <div class="title-login">
-                            <h2 class="text-center text-success">
-                                Login
-                            </h2>
-                            <br>
-                            <h5>Faça o login para ter acesso a informações restritas.</h5>
-                        </div>
-                        <form role="form" class="form-login">
-                            <div class="col-10">
-                                <div class="input-group">
-                                    <span class="input-group-text">Email</span>
-                                    <input type="email" class="form-control" id="email-login" name="email-login" required="">
-                                </div>
-                            </div>
-
-                            <div class="col-10">
-                                <div class="input-group">
-                                    <span class="input-group-text">Senha</span>
-                                    <input type="password" class="form-control" id="password" name="password" required="">
-                                </div>
-                            </div>
-                            <a href="#" class="link-primary">Esqueceu sua senha?</a>
-                            <div class="d-grid gap-2 col-6 mx-auto btn-login">
-                                <a href="./index.php" class="btn btn-primary" type="button">Entrar</a>
-                            </div>
-                        </form>
-                    </div>
-
-                    <div class="col-auto">
-                        <img alt="Ícone de administrador" src="./img/icon-admin.png" class="img-login" />
-                    </div>
+<body class="fundo-bd-login">
+    <div class="container-fluid ContainerLogin">
+        <div class="row g-4">
+            <div class="col-6 mainlogin">
+                <div class="col-12 title-login">
+                    <h3 class="mb-2">Login</h3>
+                    <br>
                 </div>
+                <br>
+                <form action="./valida.php" method="POST">
+                    <div class="row">
+                        <div class="col-11">
+                            <div class="input-group">
+                                <span class="input-group-text">Email</span>
+                                <input type="email" class="form-control" id="emailAdmin" name="emailAdmin" placeholder="Seu.email@exemplo.com" required="">
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1">Senha</span>
+                                <input type="password" class="form-control" id="senhaAdmin" name="senhaAdmin" placeholder="Sua senha" required="">
+                            </div>
+                        </div>
+                        <div class="col-5 btn-senha">
+                            <a href="#">Esqueceu sua senha?</a>
+                        </div>
+                        <div class="col-auto btn-cadAdmin">
+                            <a href="./cadAdmin.php">Cadastrar administrador.</a>
+                        </div>
+                        <div class="d-grid gap-2 col-8 mx-auto btn-login">
+                            <a href="./index.php" class="btn btn-primary" type="submit">Entrar</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-auto editar-img">
+            <img src="./img//icon-admin.png" class="mx-auto d-block">
             </div>
         </div>
     </div>
