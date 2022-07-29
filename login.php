@@ -19,7 +19,7 @@
                     <br>
                 </div>
                 <br>
-                <form action="" method="POST">
+                <form action="./valida.php" method="POST">
                     <div class="row">
                         <div class="col-11">
                             <div class="input-group">
@@ -40,7 +40,7 @@
                             <a href="./cadAdmin.php">Cadastrar administrador.</a>
                         </div>
                         <div class="d-grid gap-2 col-8 mx-auto btn-login">
-                            <a href="./index.php" class="btn btn-primary" type="submit">Entrar</a>
+                            <input class="btn btn-primary" type="submit" name="submit" submit value="Entrar">
                         </div>
                     </div>
                 </form>
