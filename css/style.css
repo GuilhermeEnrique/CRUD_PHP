@@ -7,7 +7,15 @@
   margin: 50px 0px 0px 0px;
   display: flex;
   align-items: center;
-  background-color: #503a85;
+  background-color: #3f3a85;
+  margin-top: 7rem;
+}
+
+.fundo-bd-login {
+  margin: 50px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  background-color: #3f3a85;
   margin-top: 7rem;
 }
 
@@ -38,7 +46,6 @@
   width: 80%;
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.678);
   margin-bottom: 0, 625rem;
-  /* margin-top: 7rem; */
 }
 
 .main-list {
@@ -52,16 +59,42 @@
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.678);
 }
 
+.mainLogin {
+  margin-top: 1rem;
+}
+
 .main-editar {
   padding: 1rem;
   background-color: #f2eaff;
   border-radius: 2rem;
+  box-shadow: 5px 5px 12px rgb(0 0 0 / 68%);
   justify-content: center;
   align-items: center;
   display: flex;
   width: 80%;
-  box-shadow: 5px 5px 12px rgb(0 0 0 / 68%);
   /* margin-top: 8rem;  */
+}
+
+.ContainerAdmin {
+  padding: 2rem;
+  background-color: #f2eaff;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 12px rgb(0 0 0 / 68%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 50%;
+}
+
+.ContainerLogin {
+  padding: 2rem;
+  background-color: #f2eaff;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 12px rgb(0 0 0 / 68%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 50%;
 }
 
 .col-md-8 {
@@ -70,7 +103,7 @@
 }
 
 .mb-2 {
-  margin-bottom: -3rem!important;
+  margin-bottom: -3rem !important;
 }
 
 .my-4 {
@@ -84,11 +117,15 @@
   margin-bottom: 1rem;
 }
 
+.col-11 {
+  margin-bottom: 1rem;
+}
+
 .col-12 {
   margin-bottom: 1rem;
 }
 
-.col-10{
+.col-10 {
   margin-bottom: 1.5rem;
 }
 
@@ -101,7 +138,7 @@
   margin-bottom: 1rem;
 }
 
-.img-login{
+.img-login {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,13 +147,28 @@
   margin-bottom: 1rem;
 }
 
-.editar-img {
+.admin-img {
   display: flex;
-  margin: 1px;
+  margin: 0px 0px -15px 110px;
   width: 10%;
   justify-items: center;
   align-items: center;
   justify-content: center;
+}
+
+.editar-img {
+  display: flex;
+  margin: 0px 0px -15px 110px;
+  width: 10%;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainlogin {
+  margin: 6rem 2rem 6rem 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .form {
@@ -136,19 +188,30 @@
   color: #f2eaff;
 }
 
-.btn-login{
-  margin-top: 2rem;
+.btn-login {
+  text-align: center;
+  /* justify-content: center; */
+  align-items: center;
 }
 
-.form-login{
+.form-login {
   margin: 3rem 2rem 0rem 2rem;
 }
 
-.title-login{
-  margin: 3rem 2rem 0rem 2rem;
+.title-login {
+  color: #000000;
+  text-align: center;
 }
 
 .title {
   text-align: center;
   color: #503a85
+}
+
+.btn-senha {
+  margin-bottom: 1.5rem;
+}
+
+.btn-cadAdmin {
+  margin: 0px 0px 0px 39px;
 }
