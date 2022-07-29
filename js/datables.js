@@ -6,7 +6,7 @@ $(document).ready(function() {
         "processing": true,
         "serverSide": true,
         "paging": true,
-        "ordering": true,
+        "order": [0, 'DESC'],
         "info": true,
         "ajax": {
             "url": "proc_pesq_user.php",
