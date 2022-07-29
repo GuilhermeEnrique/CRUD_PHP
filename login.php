@@ -19,7 +19,7 @@
                     <br>
                 </div>
                 <br>
-                <form action="./valida.php" method="POST">
+                <form action="" method="POST">
                     <div class="row">
                         <div class="col-11">
                             <div class="input-group">
