@@ -32,7 +32,7 @@ $logado = $_SESSION['emailAdmin'];
                     <h3 class="mb-2">Cadastro de usuários</h3>
                 </div>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <a href="./login.php" class="btn btn-primary me-md-2">Entrar</a>
+                    <a href="./sair.php" class="btn btn-danger me-md-2">Sair</a>
                 </div>
                 <br>
                 <form action="./insere.php" method="POST">
