@@ -13,7 +13,7 @@
 <body class="fundo-bd-login">
     <div class="container-fluid ContainerLogin">
         <div class="row g-4">
-            <div class="col-6 mainlogin">
+            <div class="col-6">
                 <div class="col-12 title-login">
                     <h3 class="mb-2">Login</h3>
                     <br>
@@ -33,7 +33,7 @@
                                 <input type="password" class="form-control" id="senhaAdmin" name="senhaAdmin" placeholder="Sua senha" required="">
                             </div>
                         </div>
-                        <div class="col-5 btn-senha">
+                        <div class="col-7 btn-senha">
                             <a href="#">Esqueceu sua senha?</a>
                         </div>
                         <div class="col-auto btn-cadAdmin">
@@ -45,8 +45,8 @@
                     </div>
                 </form>
             </div>
-            <div class="col-auto editar-img">
-            <img src="./img//icon-admin.png" class="mx-auto d-block">
+            <div class="col-auto img-login">
+                <img src="./img/icon-admin.png" class="mx-auto d-block">
             </div>
         </div>
     </div>

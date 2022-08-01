@@ -19,7 +19,7 @@
                 </div>
                 <br>
                 <br>
-                <form action="./formulario.php" method="POST">
+                <form action="./cadastrarAdm.php" method="POST">
                     <div class="row">
                         <div class="col-11">
                             <div class="input-group">
@@ -60,7 +60,7 @@
 
                         <div class="d-grid gap-2 justify-content-center">
                             <button class="btn btn-primary" type="submit">Cadastrar</button>
-                            <a href="./login.php" class="btn btn-outline-primary" type="button">Login</a>
+                            <a href="./login.php" class="btn btn-outline-primary" type="button">Voltar</a>
                         </div>
                     </div>
                 </form>

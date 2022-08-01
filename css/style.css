@@ -94,7 +94,7 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 50%;
+  width: 50%
 }
 
 .col-md-8 {
@@ -140,11 +140,11 @@
 
 .img-login {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0px 0px -15px 110px;
+  width: 15%;
   justify-items: center;
-  height: auto;
-  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center
 }
 
 .admin-img {
@@ -201,6 +201,7 @@
 .title-login {
   color: #000000;
   text-align: center;
+  margin: 50px 0px 50px 0px;
 }
 
 .title {
@@ -209,9 +210,9 @@
 }
 
 .btn-senha {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .btn-cadAdmin {
-  margin: 0px 0px 0px 39px;
+  margin: 0px 0px 20px 0px;
 }

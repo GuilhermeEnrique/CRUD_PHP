@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+if ((!isset($_SESSION['emailAdmin']) == true) && (!isset($_SESSION['senhaAdmin']) == true)) {
+    unset($_SESSION['emailAdmin']);
+    unset($_SESSION['senhaAdmin']);
+    header('Location: login.php');
+}
+$logado = $_SESSION['emailAdmin'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
