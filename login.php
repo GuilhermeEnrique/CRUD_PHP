@@ -33,7 +33,7 @@
                                 <input type="password" class="form-control" id="senhaAdmin" name="senhaAdmin" placeholder="Sua senha" required="">
                             </div>
                         </div>
-                        <div class="col-7 btn-senha">
+                        <div class="col-6 btn-senha">
                             <a href="#">Esqueceu sua senha?</a>
                         </div>
                         <div class="col-auto btn-cadAdmin">
