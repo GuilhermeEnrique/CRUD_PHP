@@ -29,10 +29,14 @@ $logado = $_SESSION['emailAdmin'];
             </div>
             <div class="col-8 form">
                 <div class="col-6">
-                    <h3 class="mb-2">Cadastro de usuários</h3>
+                    <h3 class="mb-2">Bem-vindo <?php echo $logado ?></h3>
                 </div>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                     <a href="./sair.php" class="btn btn-danger me-md-2">Sair</a>
+                </div>
+                <br>
+                <div class="title-cad">
+                    <h3 class="mb-2">Cadastro de usuário</h3>
                 </div>
                 <br>
                 <form action="./insere.php" method="POST">
