@@ -12,7 +12,7 @@
 
 <body class="fundo-bd-cad">
     <div class="container-fluid ContainerAdmin">
-        <div class="row g-4">
+        <div class="row g-4 main">
             <div class="col-6 form">
                 <div class="col-6">
                     <h3 class="mb-2">Cadastro de Administradores</h3>

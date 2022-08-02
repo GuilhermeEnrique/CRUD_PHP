@@ -12,7 +12,7 @@
 
 <body class="fundo-bd-login">
     <div class="container-fluid ContainerLogin">
-        <div class="row g-4">
+        <div class="row g-4 mainLogin">
             <div class="col-6">
                 <div class="col-12 title-login">
                     <h3 class="mb-2">Login</h3>
@@ -33,7 +33,7 @@
                                 <input type="password" class="form-control" id="senhaAdmin" name="senhaAdmin" placeholder="Sua senha" required="">
                             </div>
                         </div>
-                        <div class="col-6 btn-senha">
+                        <div class="col-7 btn-senha">
                             <a href="#">Esqueceu sua senha?</a>
                         </div>
                         <div class="col-auto btn-cadAdmin">
