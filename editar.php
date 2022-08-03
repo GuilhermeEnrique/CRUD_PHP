@@ -1,8 +1,12 @@
 <?php
-
 include("./conexao.php");
+session_start();
 
-if (isset($_GET['id'])) {
+if ((!isset($_SESSION['emailAdmin']) == true) && (!isset($_SESSION['senhaAdmin']) == true)) {
+    unset($_SESSION['emailAdmin']);
+    unset($_SESSION['senhaAdmin']);
+    header('Location: login.php');
+} elseif (isset($_GET['id'])) {
     $user_id = $_GET['id'];
 
     $sql = "SELECT * FROM user WHERE id = $user_id";
@@ -88,16 +92,16 @@ if (isset($_GET['id'])) {
 
 
                                 <div class="col-md-3">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" id="cep" name="cep" value="<?php echo $cep; ?>" required="">
-                                    <span class="input-group-text">CEP</span>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="cep" name="cep" value="<?php echo $cep; ?>" required="">
+                                        <span class="input-group-text">CEP</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <hr>
-                            <div class="d-grid gap-2 d-md-flex justify-content-center">
-                                <button class="btn btn-primary" type="submit">Atualizar</button>
-                                <a href="./list.php" class="btn btn-danger" type="button">Cancelar</a>
-                            </div>
+                                <hr>
+                                <div class="d-grid gap-2 d-md-flex justify-content-center">
+                                    <button class="btn btn-primary" type="submit">Atualizar</button>
+                                    <a href="./list.php" class="btn btn-danger" type="button">Cancelar</a>
+                                </div>
                         </form>
                     </div>
                 </div>
@@ -108,7 +112,7 @@ if (isset($_GET['id'])) {
         </html>
 <?php
     } else {
-        header('Location: select.php');
+        header('Location: list.php');
     }
 }
 ?>
